@@ -1,0 +1,227 @@
+main{
+    display: flex;
+}
+
+body{
+    background-color: #313131;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 15px;
+    margin: 0;
+}
+
+#titulo{
+    color: #ffffff;
+    text-align: center;
+}
+
+#principal{
+    background-color: rgb(15, 15, 15);
+    width: 81.5%;
+
+}
+
+#menu{
+    background-color: #141414;
+    width: 18.5%;
+    color: #ffffff;
+    padding: 20px;
+    border-left: #000000 1px solid;
+}
+
+#menu h3{
+    margin-top: 0; 
+}
+#menu ol{ 
+    padding-left: 20px; 
+    margin: 0; 
+}
+#menu li{ 
+    margin-bottom: 10px; 
+}
+
+#section-1{
+    background-color: rgb(36, 36, 36);
+    padding: 0;
+}
+
+.secundario{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.articulo{
+    background-color: rgb(53, 53, 53);
+    width: 25%;
+    height: 200px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#art2{
+    width: 33%;
+}
+
+#pie{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: row;
+}
+
+#section-footer-1{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+ul{
+    display: flex;
+    gap: 15px; 
+    list-style: none;
+}
+
+#aside-footer-2{
+    width: 24.7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 1000,
+    'GRAD' 0,
+    'opsz' 24;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+h1{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+}
+
+#img-bg1 {
+    background-image: url('../img/violin.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img-bg2 {
+    background-image: url('../img/guitarra.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#color-dg {
+    background: linear-gradient(135deg, #8d8d8d, #202020);
+}
+
+nav li:hover{
+    background-color: #565756;
+    color: #fafafa;
+    border-radius: 10px;
+}
+
+li:hover{
+    background-color: #565756;
+    color: #fafafa;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#section-2 {
+    background-color: #141414;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 15px;
+    align-items: stretch;
+}
+
+#ss1, #ss2, #ss3 {
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    width: 33%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+
+/*De aqui para abajo me tube que apoyar poquito de la IA
+por que las imaganes se ponian de forma rara*/
+
+#ss1 .secundario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#ss2 .secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+#ss2 .secundario .secundario {
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+#ss1 .secundario img {
+    flex: 0 0 45%;
+    max-width: 45%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+#ss1 .secundario p {
+    flex: 1;
+    min-width: 0;
+}
+
+#ss3 img {
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center 70%;
+    border-radius: 6px;
+    width: 100%;
+}
+
+#section-2 p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
